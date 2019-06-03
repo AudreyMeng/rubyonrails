@@ -99,3 +99,7 @@ add bootstrap to the top of head of *views/layouts* erb files.
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 ```
 > user guider to bootstrap : https://getbootstrap.com/docs/4.3/components/alerts/
+
+插入图片用image_tag,参数可以设置宽和高
+
+直接设定style的方法就是直接加上style="..."
