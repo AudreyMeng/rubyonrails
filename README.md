@@ -64,7 +64,7 @@ rails generate controller home index
 
 This creates a new **controller home with action index**, try webpage localhost:3000/home/index.
 
-we can change the content of action index by editing file _app/views/home/index.html.erb_
+> edit webpage content of action index by editing file _app/views/home/index.html.erb_
 
 # Route
 route file is in config/routes.rb
@@ -73,3 +73,20 @@ route homepage to be handled by *Controller* home with *Action* index.
 ```ruby 
 root 'home#index'  
 ```
+route GET /about to *Controller* home with *Action* about.
+step 1: config config/routes.rb by adding:
+```ruby
+get '/about' =>  'home#about'
+```
+
+step 2: config app/controllers/home_controller.rb by adding:
+```ruby
+def about
+end
+```
+step 3: add a new view file *app/views/home/index.html.erb*, add contents:
+```ruby
+<h1>about us</h1>
+```
+
+
