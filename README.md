@@ -61,4 +61,4 @@ create controller:
 rails generate controller home index
 ```
 
-This creates a new controller named home with action index, try webpage localhost:3000/home/index.
+This creates a new controller named home with action index _[app/views/home/index.html.erb]_, try webpage localhost:3000/home/index.
