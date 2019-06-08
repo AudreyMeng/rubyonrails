@@ -104,6 +104,10 @@ add bootstrap to the top of head of *views/layouts* erb files.
 
 直接设定style的方法就是直接加上style="..."
 
+# layout
+
+Contents in layouts are available for **all pages**.
+
 # workflow
 
 页面请求先由config/routes.rb 文件route到对应controller,然后由controller指引到对应action文件。
