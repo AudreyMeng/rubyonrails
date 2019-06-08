@@ -103,3 +103,9 @@ add bootstrap to the top of head of *views/layouts* erb files.
 插入图片用image_tag,参数可以设置宽和高
 
 直接设定style的方法就是直接加上style="..."
+
+# workflow
+
+页面请求先由config/routes.rb 文件route到对应controller,然后由controller指引到对应action文件。
+
+控制器位于 app/controllers/controller_name.rb 文件 ，视图位于 app/views/welcome/action.html.erb 文件。
