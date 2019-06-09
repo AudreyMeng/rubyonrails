@@ -104,7 +104,7 @@ add bootstrap to the top of head of *views/layouts* erb files.
 
 直接设定style的方法就是直接加上style="..."
 
-> Another way is install bootstrap with
+> JS won't work with CDN, I don't know why. So here is another solution: install bootstrap with
 ```bash
 gem install bootstrap -v 4.3.1
 ```
