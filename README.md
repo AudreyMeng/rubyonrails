@@ -121,11 +121,14 @@ then add these in html head
 
 Contents in layouts are available for **all pages**.
 
-# layout html partials
+## layout html partials
 
 Put html divs in a new file under home directory and **name the file with underscore**, eg: \_new_question_form.html.erb. 
 
 Then in the original html file add **<%= render 'home/new_question_form' %>**.
+
+# form_for
+<form>有时submit会有Invalid Authentication Token的错误，解决办法就是用form_for之类的helper。form_for适用于有modal的，可以生成form并且带有token。实例见HU项目_new_question_form.html.erb。
 
 # workflow
 
