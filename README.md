@@ -121,7 +121,7 @@ then add these in html head
 
 Contents in layouts are available for **all pages**.
 
-# html partials
+# layout html partials
 
 Put html divs in a new file under home directory and **name the file with underscore**, eg: \_new_question_form.html.erb. 
 
