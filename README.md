@@ -121,6 +121,12 @@ then add these in html head
 
 Contents in layouts are available for **all pages**.
 
+# html partials
+
+Put html divs in a new file under home directory and **name the file with underscore**, eg: \_new_question_form.html.erb. 
+
+Then in the original html file add **<%= render 'home/new_question_form' %>**.
+
 # workflow
 
 页面请求先由config/routes.rb 文件route到对应controller,然后由controller指引到对应action文件。
