@@ -19,53 +19,11 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ml-auto">
-      <div class="container-fluid">
-        <a class="navbar-brand h" href="#">
-          <!--
-            直接设定style的方法就是直接加上style="..."
-            mr-auto mx-auto ml-auto用来左中右对齐
-          -->
-          <h5 style="color: #BBBBBB">History of The Universe</h5>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="nav navbar-nav ml-auto">
-            <li>
-              <form>
-                <a href="#" class="btn btn-success navbar-btn" data-toggle="modal" data-target="#exampleModal">Ask Question</a>
-              </form>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            ...
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
-          </div>
-        </div>
-      </div>
-    </div>
 
 
+    <%= render 'home/navbar' %>
+
+    <%= render 'home/new_question_form' %>
 
     <%= yield %>
 
