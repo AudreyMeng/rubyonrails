@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :questions
+  resources :models
   root 'home#index'
   get '/about' =>  'home#about'
   post '/questions' => 'home#temp'
