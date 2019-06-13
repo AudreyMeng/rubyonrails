@@ -37,7 +37,7 @@ Two important files are:
 
 2, app/controllers/home_controller.rb defines actions of home controller.
 
-### <a> href
+### \<a> href
 In index, every question has a <a> with href="/questions/12" which will redirect page to the sublink of localhost:3000/questions/12.
 
 routes.rb defines controller home and action question for it:
@@ -46,7 +46,7 @@ get '/questions/:id' => 'home#question'
 ```
 So there is a app/views/home/question.html.erb file to define page view.
 
-### <a> modal
+### \<a> modal
 In app/views/home/question.html.erb, <a> for answer is also defined to expect data-target modal: answerModal.
   
 To render the modal:
