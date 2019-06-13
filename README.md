@@ -14,7 +14,7 @@ Here we have two renders:
 
 2, new_question_form: it only shows up when the form in navbar is trigered.
 
-> renders are just html div layout partials, so **the html.erb file must start with a underscore**, but the url will remove teh underscore.
+> renders are just html div layout partials, so **the html.erb file must start with a underscore**, like app/views/home/\_new_question_form.html.erb, but the url will remove teh underscore.
 
 ### yield
 ```ruby
