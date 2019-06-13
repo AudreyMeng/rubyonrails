@@ -13,7 +13,8 @@
       </a>
       <div class="media-body">
         <h5 class="media-heading mt-0"><%= q.email %> asked:</h5>
-        <%= q.body %>
+        <div><%= time_ago_in_words q.created_at %> ago</div>
+        <p><%= q.body %></p>
         <div>
           <a href="/questions/12" class="btn btn-success btn-xs">View Answers</a>
         </div>
