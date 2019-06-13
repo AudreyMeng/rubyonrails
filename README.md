@@ -25,7 +25,7 @@ yield will render contents from home#index as defined in config/routes.rb.
 
 Then we can start from config/routes.rb, **there are three main parts: root, GET question, POST**.
 
-## root
+## root & Get question
 ```ruby
 root 'home#index'
 ```
