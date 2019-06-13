@@ -23,7 +23,7 @@ Here we have two renders:
 
 yield will render contents from home#index as defined in config/routes.rb.
 
-Then we can start from config/routes.rb, there are three main parts: root, GET question, POST.
+Then we can start from config/routes.rb, **there are three main parts: root, GET question, POST**.
 
 ## root
 ```ruby
